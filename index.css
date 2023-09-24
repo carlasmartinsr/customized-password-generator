@@ -1,137 +1,131 @@
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    background: #111827;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  background: #111827;
 }
 
-.light{
-    background: #ECFDF5;
-    color: #273549; 
+.light {
+  background: #ecfdf5;
+  color: #273549;
 }
 
-.dark{
-    background: #1F2937;
-    color: white; 
+.dark {
+  background: #1f2937;
+  color: white;
 }
 
-.container{
-    box-sizing: border-box;
-    max-width: 730px;
-    margin: 50px auto ;
-    padding: 70px 52px;
-    border-radius: 10px;
+.container {
+  box-sizing: border-box;
+  max-width: 730px;
+  margin: 100px auto;
+  padding: 70px 52px;
+  border-radius: 10px;
 }
 
-.btn{
-    background: #10B981;
-    color: white;
-    font-family: inherit;
-    cursor: pointer;
-    border: 2px solid #10B981;
+.btn {
+  background: #10b981;
+  color: white;
+  font-family: inherit;
+  cursor: pointer;
+  border: 2px solid #10b981;
 }
 
-.btn:hover{
-   color: #10B981;
-   background: #273549;
-   border: 2px solid #10B981;
+.btn:hover {
+  color: #10b981;
+  background: #273549;
+  border: 2px solid #10b981;
 }
 
-
-.highlight{
-    color: #4ADF86;
-
+.highlight {
+  color: #4adf86;
 }
 
-.name{
-    margin-top: 0px;
-    font-weight: 800;
-    font-family: 'Karla', sans-serif;
-    font-size: 40px;
-    line-height: 40px;  
+.name {
+  margin-top: 0px;
+  font-weight: 800;
+  font-family: "Karla", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
 }
 
-
-.text{
-    margin-bottom: 0px;
+.text {
+  margin-bottom: 0px;
 }
 
-.settings{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    column-gap: 10px;
-    margin-top: 40px;
-    border: 2px solid #4ADF86;
-    padding: 25px 25px 15px;
-    border-radius: 6px;
-    max-width: 370px;
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  margin-top: 40px;
+  border: 2px solid #4adf86;
+  padding: 25px 25px 15px;
+  border-radius: 6px;
+  max-width: 370px;
 }
 
-.password-length{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 12px;
+.password-length {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
 }
 
-
-.password-settings{
-    display: flex;
-    column-gap: 55px;
-    flex-wrap: wrap;
+.password-settings {
+  display: flex;
+  column-gap: 55px;
+  flex-wrap: wrap;
 }
 
-.length-title{
-    margin-bottom: 8px;
+.length-title {
+  margin-bottom: 8px;
 }
 
-.input-group, .mode{
-    display: flex;
-    column-gap: 15px;
-    align-items: center;
-    margin-bottom: 10px;
+.input-group,
+.mode {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-.mode{
-    justify-content:flex-end ;
-    margin-bottom: 15px;
+.mode {
+  justify-content: flex-end;
+  margin-bottom: 15px;
 }
 
-.length{
-    display: flex;
-    align-items: center;
-    column-gap: 15px;
+.length {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
 }
 
 input[type="range"] {
   padding: 8px 10px;
- 
-
 }
-input[type="checkbox"]{
-    width: 16px;
-    height: 16px;
-    }
-
-.btn-generate{
-    margin: 31px 0px 0px;
-    padding: 15px 9px;
-    width: 191px;
-    border-radius: 6px;
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
 }
 
-
-.password-container{
-    display: flex;
-    align-items: center;
-    column-gap: 24px;
-    flex-wrap: wrap;
-    margin-top: 44px;
-    display: flex;
+.btn-generate {
+  margin: 31px 0px 0px;
+  padding: 15px 9px;
+  width: 191px;
+  border-radius: 6px;
 }
 
-.result{
+.password-container {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 44px;
+  display: flex;
+}
+
+.result {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,34 +137,27 @@ input[type="checkbox"]{
   border-radius: 6px;
 }
 
-.password{
-    background: #273549;
-    padding: 5px 4px;
-    border-radius: 6px;
-    font-size: 16px;
-    text-align: center;
-    
-    
+.password {
+  background: #273549;
+  padding: 5px 4px;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
 }
 
 input[type="text"] {
   padding: 5px 10px;
   border: 1px solid #273549;
-   width: 150px
+  width: 150px;
 }
 
-
-input[type="text"]:focus,
- {
-  border: 1px solid #10B981;
+input[type="text"]:focus {
+  border: 1px solid #10b981;
   outline: none;
 }
 
-
-.btn-copy{
-     padding: 6px 12px;
-     display: inline-block;
-     border-radius: 3px;
-   
-    
+.btn-copy {
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 3px;
 }
